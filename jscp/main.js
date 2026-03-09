@@ -1872,12 +1872,7 @@ window.initializePricingCalculator = initializePricingCalculator;
 
 // Ẩn settings hint sau 3 giây
 document.addEventListener('DOMContentLoaded', function() {
-    const settingsHint = document.getElementById('settingsHint');
-    if (settingsHint) {
-        setTimeout(() => {
-            settingsHint.style.display = 'none';
-        }, 3000);
-    }
+     
     
     // Khởi tạo WebSocket connection
     if (window.initWebSocket) {
